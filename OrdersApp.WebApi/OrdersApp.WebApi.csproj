@@ -44,6 +44,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.5\lib\net45-full\log4net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
       <Private>True</Private>
@@ -281,9 +285,17 @@
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\OrdersApp.Data\OrdersApp.Data.csproj">
+      <Project>{a7b75cd8-e2c1-45c1-af3c-39648e76ede8}</Project>
+      <Name>OrdersApp.Data</Name>
+    </ProjectReference>
     <ProjectReference Include="..\OrdersApp.Domain\OrdersApp.Domain.csproj">
       <Project>{94e076a5-5446-4464-9780-76ef7221ecac}</Project>
       <Name>OrdersApp.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OrdersApp.ViewModels\OrdersApp.ViewModels.csproj">
+      <Project>{8da761ab-160a-4a64-8b98-8adfe52248c1}</Project>
+      <Name>OrdersApp.ViewModels</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

@@ -75,3 +75,9 @@ D:\Projects\Orders\OrdersApp\OrdersApp.WebApi\obj\Debug\OrdersApp.WebApi.dll
 D:\Projects\Orders\OrdersApp\OrdersApp.WebApi\obj\Debug\OrdersApp.WebApi.pdb
 D:\Projects\Orders\OrdersApp\OrdersApp.WebApi\bin\OrdersApp.Domain.dll
 D:\Projects\Orders\OrdersApp\OrdersApp.WebApi\bin\OrdersApp.Domain.pdb
+D:\Projects\Orders\OrdersApp\OrdersApp.WebApi\bin\log4net.dll
+D:\Projects\Orders\OrdersApp\OrdersApp.WebApi\bin\OrdersApp.Data.dll
+D:\Projects\Orders\OrdersApp\OrdersApp.WebApi\bin\OrdersApp.ViewModels.dll
+D:\Projects\Orders\OrdersApp\OrdersApp.WebApi\bin\OrdersApp.Data.pdb
+D:\Projects\Orders\OrdersApp\OrdersApp.WebApi\bin\OrdersApp.ViewModels.pdb
+D:\Projects\Orders\OrdersApp\OrdersApp.WebApi\bin\log4net.xml
