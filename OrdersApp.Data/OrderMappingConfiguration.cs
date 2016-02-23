@@ -12,8 +12,8 @@ namespace OrdersApp.Data
             Property(x => x.Price).HasColumnName("Price");
             Property(x => x.CreatedDate).HasColumnName("CreatedDate");
 
-            HasOptional(p => p.User)
-             .WithMany(b => b.UserOrders)
+            HasOptional(p => p.Customer)
+             .WithMany(b => b.CustomerOrders)
              .Map(m => m.MapKey("UserId"));
         }
     }

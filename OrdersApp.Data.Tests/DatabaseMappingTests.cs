@@ -7,11 +7,11 @@ namespace OrdersApp.Data.Tests
     public class DatabaseMappingTests
     {
         [Test]
-        public void can_read_users()
+        public void can_read_customers()
         {
             var context = new OrdersAppDbContext();
-            var user = context.User.FirstOrDefault();
-            Assert.IsNotNull(user);
+            var customer = context.Customer.FirstOrDefault();
+            Assert.IsNotNull(customer);
         }
 
         [Test]

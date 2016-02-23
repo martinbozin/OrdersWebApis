@@ -13,13 +13,13 @@ namespace OrdersApp.Data
         {
         }
 
-        public DbSet<User> User { get; set; }
+        public DbSet<Customer> Customer { get; set; }
         public DbSet<Order> Orders { get; set; }
       
  
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
-            modelBuilder.Configurations.Add(new UserMappingConfiguration());
+            modelBuilder.Configurations.Add(new CustomerMappingConfiguration());
             modelBuilder.Configurations.Add(new OrderMappingConfiguration());
         }
     }

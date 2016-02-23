@@ -7,6 +7,6 @@ namespace OrdersApp.Domain
         public int OrderId { get; set; }   
         public double Price { get; set; }
         public DateTime CreatedDate { get; set; }
-        public User User { get; set; } 
+        public Customer Customer { get; set; } 
     }
 }

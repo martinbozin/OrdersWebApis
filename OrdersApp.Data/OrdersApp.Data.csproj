@@ -52,7 +52,7 @@
     <Compile Include="OrdersAppDbContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="OrderMappingConfiguration.cs" />
-    <Compile Include="UserMappingConfiguration.cs" />
+    <Compile Include="CustomerMappingConfiguration.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

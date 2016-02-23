@@ -3,12 +3,12 @@ using OrdersApp.Domain;
 
 namespace OrdersApp.Data
 {
-    public class UserMappingConfiguration : EntityTypeConfiguration<User>
+    public class CustomerMappingConfiguration : EntityTypeConfiguration<Customer>
     {
-        public UserMappingConfiguration()
+        public CustomerMappingConfiguration()
         {
-            ToTable("Users");
-            HasKey(x => x.UserId);
+            ToTable("Customers");
+            HasKey(x => x.CustomerId);
             Property(x => x.Name).HasColumnName("Name");
             Property(x => x.Email).HasColumnName("Email");
         }
