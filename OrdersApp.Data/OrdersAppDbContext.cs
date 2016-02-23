@@ -3,13 +3,13 @@ using OrdersApp.Domain;
 
 namespace OrdersApp.Data
 {
-    public class EmploiaDbContext : DbContext
+    public class OrdersAppDbContext : DbContext
     {
-        public EmploiaDbContext() : base("OrdersAppDbContext")
+        public OrdersAppDbContext() : base("OrdersAppDbContext")
         {
         }
 
-        public EmploiaDbContext(string nameOrConnectionString) : base(nameOrConnectionString)
+        public OrdersAppDbContext(string nameOrConnectionString) : base(nameOrConnectionString)
         {
         }
 
@@ -19,7 +19,8 @@ namespace OrdersApp.Data
  
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
- 
+            modelBuilder.Configurations.Add(new UserMappingConfiguration());
+            modelBuilder.Configurations.Add(new OrderMappingConfiguration());
         }
     }
 }

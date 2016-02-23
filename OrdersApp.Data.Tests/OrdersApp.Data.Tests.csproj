@@ -60,6 +60,16 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OrdersApp.Data\OrdersApp.Data.csproj">
+      <Project>{a7b75cd8-e2c1-45c1-af3c-39648e76ede8}</Project>
+      <Name>OrdersApp.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OrdersApp.Domain\OrdersApp.Domain.csproj">
+      <Project>{94E076A5-5446-4464-9780-76EF7221ECAC}</Project>
+      <Name>OrdersApp.Domain</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

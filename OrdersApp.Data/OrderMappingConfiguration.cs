@@ -3,9 +3,9 @@ using OrdersApp.Domain;
 
 namespace OrdersApp.Data
 {
-    class OrdersMappingConfiguration : EntityTypeConfiguration<Order>
+    class OrderMappingConfiguration : EntityTypeConfiguration<Order>
     {
-        public OrdersMappingConfiguration()
+        public OrderMappingConfiguration()
         {
             ToTable("Orders");
             HasKey(x => x.OrderId);

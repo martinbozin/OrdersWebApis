@@ -10,3 +10,7 @@ D:\Projects\Orders\OrdersApp\OrdersApp.Data.Tests\bin\Debug\nunit.framework.xml
 D:\Projects\Orders\OrdersApp\OrdersApp.Data.Tests\obj\Debug\OrdersApp.Data.Tests.csprojResolveAssemblyReference.cache
 D:\Projects\Orders\OrdersApp\OrdersApp.Data.Tests\obj\Debug\OrdersApp.Data.Tests.dll
 D:\Projects\Orders\OrdersApp\OrdersApp.Data.Tests\obj\Debug\OrdersApp.Data.Tests.pdb
+D:\Projects\Orders\OrdersApp\OrdersApp.Data.Tests\bin\Debug\OrdersApp.Data.dll
+D:\Projects\Orders\OrdersApp\OrdersApp.Data.Tests\bin\Debug\OrdersApp.Domain.dll
+D:\Projects\Orders\OrdersApp\OrdersApp.Data.Tests\bin\Debug\OrdersApp.Data.pdb
+D:\Projects\Orders\OrdersApp\OrdersApp.Data.Tests\bin\Debug\OrdersApp.Domain.pdb

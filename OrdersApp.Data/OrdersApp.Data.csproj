@@ -51,7 +51,7 @@
   <ItemGroup>
     <Compile Include="OrdersAppDbContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="OrdersMappingConfiguration.cs" />
+    <Compile Include="OrderMappingConfiguration.cs" />
     <Compile Include="UserMappingConfiguration.cs" />
   </ItemGroup>
   <ItemGroup>
