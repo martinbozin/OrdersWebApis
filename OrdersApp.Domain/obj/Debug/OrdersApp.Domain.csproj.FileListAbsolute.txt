@@ -1,0 +1,5 @@
+D:\Projects\Orders\OrdersApp\OrdersApp.Domain\bin\Debug\OrdersApp.Domain.dll
+D:\Projects\Orders\OrdersApp\OrdersApp.Domain\bin\Debug\OrdersApp.Domain.pdb
+D:\Projects\Orders\OrdersApp\OrdersApp.Domain\obj\Debug\OrdersApp.Domain.csprojResolveAssemblyReference.cache
+D:\Projects\Orders\OrdersApp\OrdersApp.Domain\obj\Debug\OrdersApp.Domain.dll
+D:\Projects\Orders\OrdersApp\OrdersApp.Domain\obj\Debug\OrdersApp.Domain.pdb
