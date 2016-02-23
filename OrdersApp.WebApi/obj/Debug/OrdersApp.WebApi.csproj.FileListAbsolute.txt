@@ -73,3 +73,5 @@ D:\Projects\Orders\OrdersApp\OrdersApp.WebApi\bin\System.Web.Http.Owin.xml
 D:\Projects\Orders\OrdersApp\OrdersApp.WebApi\obj\Debug\OrdersApp.WebApi.csprojResolveAssemblyReference.cache
 D:\Projects\Orders\OrdersApp\OrdersApp.WebApi\obj\Debug\OrdersApp.WebApi.dll
 D:\Projects\Orders\OrdersApp\OrdersApp.WebApi\obj\Debug\OrdersApp.WebApi.pdb
+D:\Projects\Orders\OrdersApp\OrdersApp.WebApi\bin\OrdersApp.Domain.dll
+D:\Projects\Orders\OrdersApp\OrdersApp.WebApi\bin\OrdersApp.Domain.pdb
