@@ -107,6 +107,8 @@ namespace OrdersApp.WebApi.Controllers
                 if (customer != null)
                 {
                     var order = new Order {Price = model.Price, CreatedDate = DateTime.Now, Customer = customer};
+                    orderAppDbContext.Orders.Add(order);
+                    orderAppDbContext.SaveChanges();
                     return order;
                 }
 
