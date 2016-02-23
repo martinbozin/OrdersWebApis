@@ -18,7 +18,6 @@ D:\Projects\Orders\OrdersApp\OrdersApp.WebApi\bin\EntityFramework.dll
 D:\Projects\Orders\OrdersApp\OrdersApp.WebApi\bin\EntityFramework.SqlServer.dll
 D:\Projects\Orders\OrdersApp\OrdersApp.WebApi\bin\Microsoft.AspNet.Identity.Core.dll
 D:\Projects\Orders\OrdersApp\OrdersApp.WebApi\bin\Microsoft.AspNet.Identity.EntityFramework.dll
-D:\Projects\Orders\OrdersApp\OrdersApp.WebApi\bin\Microsoft.AspNet.Identity.Owin.dll
 D:\Projects\Orders\OrdersApp\OrdersApp.WebApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 D:\Projects\Orders\OrdersApp\OrdersApp.WebApi\bin\Microsoft.Owin.dll
 D:\Projects\Orders\OrdersApp\OrdersApp.WebApi\bin\Microsoft.Owin.Security.Cookies.dll
@@ -30,7 +29,6 @@ D:\Projects\Orders\OrdersApp\OrdersApp.WebApi\bin\Microsoft.Owin.Security.OAuth.
 D:\Projects\Orders\OrdersApp\OrdersApp.WebApi\bin\Microsoft.Owin.Security.Twitter.dll
 D:\Projects\Orders\OrdersApp\OrdersApp.WebApi\bin\Microsoft.Web.Infrastructure.dll
 D:\Projects\Orders\OrdersApp\OrdersApp.WebApi\bin\Newtonsoft.Json.dll
-D:\Projects\Orders\OrdersApp\OrdersApp.WebApi\bin\Owin.dll
 D:\Projects\Orders\OrdersApp\OrdersApp.WebApi\bin\System.Net.Http.Formatting.dll
 D:\Projects\Orders\OrdersApp\OrdersApp.WebApi\bin\System.Web.Helpers.dll
 D:\Projects\Orders\OrdersApp\OrdersApp.WebApi\bin\System.Web.Http.dll
@@ -59,7 +57,6 @@ D:\Projects\Orders\OrdersApp\OrdersApp.WebApi\bin\Antlr3.Runtime.pdb
 D:\Projects\Orders\OrdersApp\OrdersApp.WebApi\bin\EntityFramework.xml
 D:\Projects\Orders\OrdersApp\OrdersApp.WebApi\bin\EntityFramework.SqlServer.xml
 D:\Projects\Orders\OrdersApp\OrdersApp.WebApi\bin\Microsoft.AspNet.Identity.Core.xml
-D:\Projects\Orders\OrdersApp\OrdersApp.WebApi\bin\Microsoft.AspNet.Identity.Owin.xml
 D:\Projects\Orders\OrdersApp\OrdersApp.WebApi\bin\Microsoft.AspNet.Identity.EntityFramework.xml
 D:\Projects\Orders\OrdersApp\OrdersApp.WebApi\bin\Microsoft.Owin.xml
 D:\Projects\Orders\OrdersApp\OrdersApp.WebApi\bin\Microsoft.Owin.Security.xml

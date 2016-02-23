@@ -10,12 +10,16 @@ using OrdersApp.ViewModels;
 
 namespace OrdersApp.WebApi.Controllers
 {
-    [Authorize]
+    [AllowAnonymous]
     public class CustomersController : ApiController
     {
         private static readonly ILog Log;
 
         // GET  V1/Customers
+        /// <summary>
+        /// Return list of all customers
+        /// </summary>
+        /// <returns></returns>
         public IQueryable<CustomerViewModel> GetCustomers()
         {
             try
@@ -40,6 +44,11 @@ namespace OrdersApp.WebApi.Controllers
         }
 
         // GET V1/Customers/{id}
+        /// <summary>
+        /// Return customer with his order list
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         public CustomerViewModel Get(int id)
         {
             try
@@ -82,6 +91,12 @@ namespace OrdersApp.WebApi.Controllers
         }
 
         // POST V1/Customers/{id} 
+        /// <summary>
+        /// Add new Order for existing Customer 
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="model"></param>
+        /// <returns></returns>
         public Order Post(int id, OrderViewModel model)
         {
             try
@@ -105,6 +120,11 @@ namespace OrdersApp.WebApi.Controllers
         }
 
         // POST V1/Customers/
+        /// <summary>
+        /// Add new Customer
+        /// </summary>
+        /// <param name="model"></param>
+        /// <returns></returns>
         [HttpPost]
         public Customer Post(CustomerViewModel model)
         {

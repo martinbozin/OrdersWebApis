@@ -1,6 +1,42 @@
-﻿<div class="jumbotron">
+﻿@model List<OrdersApp.ViewModels.CustomerViewModel>
+<div class="jumbotron">
     <h1>OrdersApp</h1>
     <p class="lead">See OrdersApp WebApi endpoints.</p>
     <p>@Html.ActionLink("OrdersApp API", "Index", "Help", new { area = "" }, null)</p>
 </div>
  
+<div class="page-header">
+    <h1>OrdersApp Services</h1>
+</div>
+
+<div class="row">
+
+    <div class="col-md-4">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h2 class="panel-title">List of all customers</h2>
+            </div>
+            <div class="panel-body">
+                <ul class="list-unstyled">
+                @foreach (var item in Model)
+                {
+ 
+                            <li>
+                                <strong>@item.Name</strong>: <span>@item.Email</span>
+                            </li>
+                      
+                }
+                </ul> 
+            </div>
+        </div>
+       
+    </div>
+
+    <div class="col-md-4">
+        <!-- TODO: Book details -->
+    </div>
+
+    <div class="col-md-4">
+        <!-- TODO: Add new book -->
+    </div>
+</div>
